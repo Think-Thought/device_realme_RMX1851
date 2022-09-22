@@ -233,6 +233,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.gatekeeper@1.0.vendor
 
+# SystemUIGoogleOverlay
+PRODUCT_PACKAGES += \
+    SystemUIGoogleOverlay
+
 # GPS
 PRODUCT_PACKAGES += \
     android.hardware.gnss@1.1.vendor \
