@@ -21,3 +21,7 @@ banner
 echo "Clonning Kernel..."
 git clone https://github.com/Realme-3-Pro-RUI-1/kernel_realme1_sdm710 -b 13 kernel/realme/sdm710
 
+# RealmePart
+banner
+echo "Cloning RealmeParts"
+git clone https://github.com/Realme-3-Pro-RUI-1/packages_apps_RealmeParts packages/apps/RealmeParts
