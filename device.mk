@@ -344,10 +344,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.neuralnetworks@1.3.vendor
 
-# Parts
-#$(call inherit-product, packages/apps/RealmeParts/parts.mk)
-#PRODUCT_COPY_FILES += \
-#    packages/apps/RealmeParts/init/cabc.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/cabc.rc
+# RealmeParts
+$(call inherit-product, packages/apps/RealmeParts/parts.mk)
+PRODUCT_COPY_FILES += \
+    packages/apps/RealmeParts/init/cabc.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/cabc.rc
 
 # Power
 PRODUCT_PACKAGES += \
