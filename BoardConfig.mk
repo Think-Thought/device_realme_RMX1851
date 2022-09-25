@@ -50,7 +50,7 @@ BOARD_MKBOOTIMG_ARGS += --header_version $(BOARD_BOOT_HEADER_VERSION)
 BOARD_RAMDISK_USE_LZ4 := true
 
 TARGET_KERNEL_CLANG_COMPILE := true
-TARGET_KERNEL_SOURCE := kernel/realme/sdm710-common
+TARGET_KERNEL_SOURCE := kernel/realme/sdm710
 TARGET_KERNEL_CONFIG := lineageos_RMX1851_defconfig
 
 # Platform
