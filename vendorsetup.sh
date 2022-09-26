@@ -25,3 +25,9 @@ git clone https://github.com/Realme-3-Pro-RUI-1/kernel_realme1_sdm710 -b 13 kern
 banner
 echo "Cloning RealmeParts"
 git clone https://github.com/Realme-3-Pro-RUI-1/packages_apps_RealmeParts packages/apps/RealmeParts
+
+# Hals
+banner
+echo "Cloning Hals"
+rm -rf hardware/qcom-caf/sdm845
+git clone https://github.com/Realme-3-Pro-RUI-1/hardware-qcom-caf-sdm845 hardware/qcom-caf/sdm845
