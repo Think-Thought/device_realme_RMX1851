@@ -41,6 +41,9 @@ vendor.oppo.camera.                 u:object_r:vendor_camera_prop:s0
 # Display
 persist.cabc_profile                u:object_r:vendor_display_prop:s0
 
+# Dolby
+persist.vendor.dolby.loglevel       u:object_r:vendor_dolby_loglevel_prop:s0
+
 # Fingerprint
 oppo.fpc.sw.version                 u:object_r:oppo_fp_prop:s0
 persist.vendor.fingerprint.optical.support u:object_r:oppo_fp_prop:s0
