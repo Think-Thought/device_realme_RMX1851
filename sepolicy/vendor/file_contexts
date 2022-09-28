@@ -58,6 +58,9 @@
 # Sensors
 /vendor/bin/hw/android\.hardware\.sensors@1\.0-service\.RMX1851                                         u:object_r:hal_sensors_default_exec:s0
 
+# Smart Charging
+/sys/class/power_supply/battery/input_suspend                                                           u:object_r:sysfs_battery_supply:s0
+
 # Symlinks in root directory
 /persist                                                                                                u:object_r:mnt_vendor_file:s0
 /tombstones                                                                                             u:object_r:tombstone_data_file:s0

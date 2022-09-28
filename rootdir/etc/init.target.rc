@@ -176,3 +176,9 @@ service tlocd /vendor/bin/tloc_daemon
     class late_start
     user system
     group drmrpc gps net_raw
+
+on boot
+
+    # SMART CHARGING
+    chown system system /sys/class/power_supply/battery/input_suspend
+    chmod 0660 /sys/class/power_supply/battery/input_suspend
