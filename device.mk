@@ -244,6 +244,13 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/lily_experience.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/lily_experience.xml
 
+# Gboard side padding
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.com.google.ime.kb_pad_port_l=4 \
+    ro.com.google.ime.kb_pad_port_r=4 \
+    ro.com.google.ime.kb_pad_land_l=64 \
+    ro.com.google.ime.kb_pad_land_r=64
+
 # Health
 PRODUCT_PACKAGES += \
     android.hardware.health@2.1-impl:64 \
