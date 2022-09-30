@@ -1125,4 +1125,8 @@
         <item>com.google.android.as/com.google.intelligence.sense.ambientmusic.history.AddShortcutActivity</item>
         <item>com.google.android.as/com.google.intelligence.sense.ambientmusic.history.HistoryContentProvider</item>
 
+    <!-- Name of a font family to use for body text. -->
+    <string name="config_bodyFontFamily">google-sans-text</string>
+    <string name="config_bodyFontFamilyMedium">google-sans-text-medium</string>
+
 </resources>
