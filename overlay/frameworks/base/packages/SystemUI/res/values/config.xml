@@ -42,4 +42,8 @@
     <!-- Whether to show a alarm dialog when device's usb port is overheating. -->
     <integer name="config_showUsbPortAlarm">1</integer>
 
+    <!-- The battery current divider, some kernel report current value in mA other in µA.
+         Leave 1 if you have mA, put 1000 if you have µA -->
+    <integer name="config_battCurrentDivider" translatable="false">1</integer>
+
 </resources>
