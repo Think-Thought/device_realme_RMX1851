@@ -15,6 +15,7 @@ PRODUCT_DEVICE := RMX1851
 PRODUCT_BRAND := Realme
 PRODUCT_MODEL := realme 3 Pro
 PRODUCT_MANUFACTURER := Realme
+TARGET_BOOT_ANIMATION_RES := 1080
 
 # disable/enable blur support, default is false
 TARGET_ENABLE_BLUR := true
