@@ -1145,4 +1145,8 @@
          should also be hidden if intended to be permanent. -->
     <item name="config_appTransitionAnimationDurationScaleDefault" format="float" type="dimen">1.1</item>
 
+    <!-- Delay that allows some content to arrive at the display before switching
+         from DOZE to ON, in millis. -->
+    <integer name="config_wakeUpDelayDoze">32</integer>
+
 </resources>
