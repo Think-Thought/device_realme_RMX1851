@@ -313,6 +313,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     vendor.lineage.livedisplay@2.0-service-sdm
 
+# LMC
+$(call inherit-product, vendor/LMC/LMC-vendor.mk)
+
 # IPA
 PRODUCT_PACKAGES += \
     libnetfilter_conntrack \
