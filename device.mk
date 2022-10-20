@@ -172,8 +172,7 @@ PRODUCT_PACKAGES += \
     libgui_vendor \
     libstdc++.vendor \
     Snap \
-    vendor.qti.hardware.camera.device@1.0.vendor \
-    GoogleCameraGo
+    vendor.qti.hardware.camera.device@1.0.vendor
 
 # Charger
 PRODUCT_PACKAGES += \
