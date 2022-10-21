@@ -42,7 +42,9 @@ LOCAL_OVERRIDES_PACKAGES := \
     VzwOmaTrigger \
     YouTube \
     YouTubeMusicPrebuilt \
-    MaestroPrebuilt
+    MaestroPrebuilt \
+    MusicFX \
+    AudioFX
 LOCAL_UNINSTALLABLE_MODULE := true
 LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_SRC_FILES := /dev/null
