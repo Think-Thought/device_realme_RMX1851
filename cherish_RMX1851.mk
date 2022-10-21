@@ -46,5 +46,5 @@ WITH_GMS := true
 # Add Systemless Pixel Launcher mod
 $(call inherit-product-if-exists, vendor/PixelLauncher/PixelLauncher.mk)
 
-PIXEL_LAUNCHER_VARIANT := tawaret
-ICONS_VARIANT := dgicons
+PIXEL_LAUNCHER_VARIANT := fullmod2
+ICONS_VARIANT := true
