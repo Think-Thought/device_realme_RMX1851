@@ -20,6 +20,7 @@ git clone https://github.com/Realme-3-Pro-RUI-1/vendor_realme_RMX1851 -b 13 vend
 banner
 echo "Clonning Kernel..."
 git clone https://github.com/Realme-3-Pro-RUI-1/android_kernel_realme_sdm710  kernel/realme/sdm710
+git clone https://gitlab.com/arrowos-project/android_prebuilts_clang_host_linux-x86_clang-r437112b prebuilts/clang/host/linux-x86/clang-r437112b
 
 # RealmePart
 banner
