@@ -41,6 +41,10 @@ persist.data.netmgrd.qos.enable=true
 persist.vendor.data.mode=concurrent
 ro.vendor.use_data_netmgrd=true
 
+# dex2oat64
+dalvik.vm.dex2oat64.enabled=true
+ro.sys.fw.dex2oat_thread_count=8
+
 # Dexopt
 pm.dexopt.first-boot=quicken
 pm.dexopt.boot=verify
