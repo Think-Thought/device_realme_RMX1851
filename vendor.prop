@@ -55,6 +55,8 @@ persist.vendor.service.bt.iot.enablelogging=true
 vendor.bluetooth.soc=cherokee
 vendor.qcom.bluetooth.soc=cherokee
 bluetooth.hardware.power.operating_voltage_mv=3300
+persist.bt.enableAptXHD=true
+persist.service.btui.use_aptx=1
 
 # Blur on app-launch
 ro.launcher.blur.appLaunch=0
