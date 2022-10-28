@@ -7,8 +7,6 @@ LOCAL_MODULE_TAGS := optional
 LOCAL_OVERRIDES_PACKAGES := \
     AmbientSensePrebuilt \
     arcore \
-    Chrome \
-    Chrome-Stub \
     ConnMO \
     ConnMetrics \
     DCMO \
@@ -44,7 +42,15 @@ LOCAL_OVERRIDES_PACKAGES := \
     YouTubeMusicPrebuilt \
     MaestroPrebuilt \
     MusicFX \
-    AudioFX
+    AudioFX \
+    SecurityHubPrebuilt \
+    GoogleFeedback \
+    QuickAccessWallet \
+    SecurityHubPrebuilt \
+    GoogleCamera \
+    AndroidAutoStubPrebuilt \
+    talkback \
+    DiagnosticsToolPrebuilt
 LOCAL_UNINSTALLABLE_MODULE := true
 LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_SRC_FILES := /dev/null
