@@ -32,9 +32,3 @@ banner
 echo "Cloning Hals"
 rm -rf hardware/qcom-caf/sdm845
 git clone https://github.com/Realme-3-Pro-RUI-1/hardware-qcom-caf-sdm845 hardware/qcom-caf/sdm845
-
-# Extras
-banner
-echo "Cloning Extras"
-git clone https://gitlab.com/Cykeek/vendor_extras vendor/extras
-
