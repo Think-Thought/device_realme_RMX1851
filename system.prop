@@ -56,6 +56,7 @@ debug.sf.disable_client_composition_cache=1
 ro.vendor.display.ad=1
 ro.vendor.display.sensortype=2
 ro.vendor.display.ad.sdr_calib_data=/vendor/etc/OPPO_OLED_AD_calib.cfg
+debug.performance.tuning=1
 
 # Graphics
 debug.sf.enable_hwc_vds=1
