@@ -249,13 +249,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.telephony.euicc.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/android.hardware.telephony.euicc.xml
 
-# Extras
-$(call inherit-product, vendor/extras/common.mk)
-
 # Fingerprint
 PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint@2.1-service.RMX1851
-
 
 # Google LILY_EXPERIENCE feature
 PRODUCT_COPY_FILES += \
