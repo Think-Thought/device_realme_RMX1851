@@ -1302,7 +1302,7 @@
         <item>org.lineageos.aperture</item>
         <item>org.lineageos.aperture.dev</item>
         <item>org.pixelexperience.faceunlock</item>
-    </string-array
+    </string-array>
 
     <!-- List of system components which are allowed to receive ServiceState entries in an
      un-sanitized form, even if the location toggle is off. This is intended ONLY for system
