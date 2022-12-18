@@ -33,4 +33,8 @@
 
     <!-- Whether to show the Preference for Adaptive connectivity -->
     <bool name="config_show_adaptive_connectivity">false</bool>
+
+    <!-- Flexo Maintainer -->
+    <string name="wings_maintainer_name" translatable="false">Hansraj</string>
+    <string name="wings_maintainer_group" translatable="false">https://t.me/rmx_3_pro</string>
 </resources>
