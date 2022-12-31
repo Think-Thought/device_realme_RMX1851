@@ -32,3 +32,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME="RMX1851"
 
 PRODUCT_GMS_CLIENTID_BASE := android-oppo
+
+# build with Gapps
+$(call inherit-product-if-exists, vendor/gapps/config.mk)
