@@ -32,3 +32,8 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME="RMX1851"
 
 PRODUCT_GMS_CLIENTID_BASE := android-oppo
+
+# Include PixelLauncher MOD
+$(call inherit-product-if-exists, vendor/PixelLauncher/PixelLauncher.mk)
+PIXEL_LAUNCHER_VARIANT := fullmod1
+ICONS_VARIANT := true
