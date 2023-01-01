@@ -35,3 +35,8 @@ PRODUCT_GMS_CLIENTID_BASE := android-oppo
 
 # build with Gapps
 $(call inherit-product-if-exists, vendor/gapps/config.mk)
+
+# Include PixelLauncher MOD
+$(call inherit-product-if-exists, vendor/PixelLauncher/PixelLauncher.mk)
+PIXEL_LAUNCHER_VARIANT := fullmod1
+ICONS_VARIANT := true
