@@ -25,8 +25,13 @@ echo "Cloning Kernel..."
 git clone https://gitlab.com/arrowos-project/android_prebuilts_clang_host_linux-x86_clang-r437112b prebuilts/clang/host/linux-x86/clang-r437112b
 git clone https://github.com/Cykeek-Labs/kernel_realme_sdm710 kernel/realme/sdm710
 
-
 # RealmeParts
 banner 2>1
 echo "Cloning RealmeParts..."
 git clone https://github.com/Cykeek-Labs/packages_apps_realmeparts packages/apps/RealmeParts
+
+# SePolicy
+banner 2>1
+echo "Cloning Sepolicy_vendor-legacy-um"
+git clone https://github.com/PixelExperience/device_qcom_sepolicy_vndr-legacy-um device/qcom/sepolicy_vndr-legacy-um
+
