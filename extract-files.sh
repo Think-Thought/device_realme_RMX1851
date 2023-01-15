@@ -65,6 +65,8 @@ function blob_fixup() {
         system_ext/lib64/lib-imsvideocodec.so)
             ${PATCHELF} --add-needed "lib-imsvtshim.so" "${2}"
             ;;
+	vendor/bin/hw/android.hardware.drm@1.2-service.widevine)
+            ${PATCHELF} --add-needed "android.hardware.drm" "${2}"
     esac
 }
 
