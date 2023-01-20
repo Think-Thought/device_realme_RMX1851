@@ -6,11 +6,11 @@
 
 $(call inherit-product, device/realme/RMX1851/device.mk)
 
-# Inherit some common LineageOS stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common Awaken stuff.
+$(call inherit-product, vendor/awaken/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := lineage_RMX1851
+PRODUCT_NAME := awaken_RMX1851
 PRODUCT_DEVICE := RMX1851
 PRODUCT_BRAND := Realme
 PRODUCT_MODEL := realme 3 Pro
