@@ -5,9 +5,9 @@
 #
 
 $(call inherit-product, device/realme/RMX1851/device.mk)
-
+common.
 # Inherit some common BananaDroid stuff.
-$(call inherit-product, vendor/banana/config/common_full_phone.mk)
+$(call inherit-product, vendor/banana/config/common.mk)
 BANANA_MAINTAINER := Think_Thought
 
 # Device identifier. This must come after all inclusions.
