@@ -2,11 +2,11 @@
 
 # Vendor
 echo "Clonning Vendor..."
-git clone https://github.com/kssrao13882/android_vendor_realme_sdm710-common -b 13 vendor/realme/sdm710-common
+git clone https://gitlab.com/Think-Thought/android_vendor_realme_sdm710-common vendor/realme/sdm710-common
 
 # Device
 echo "Clonning common device tree..."
-git clone https://github.com/kssrao13882/device_realme_sdm710-common_A13 -b 13 device/realme/sdm710-common
+git clone https://gitlab.com/Think-Thought/device_realme_sdm710-common -b 13 device/realme/sdm710-common
 
 # Kernel
 echo "Cloning Kernel..."
